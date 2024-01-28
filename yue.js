@@ -8,7 +8,7 @@ const gradient = require("gradient-string");
 
 const app = express();
 const commandPath = path.join(__dirname, "scripts", "commands");
-const PREFIX = ":"
+const PREFIX = "."
 const PORT = process.env.PORT || 3000;
 
 const commands = {};
